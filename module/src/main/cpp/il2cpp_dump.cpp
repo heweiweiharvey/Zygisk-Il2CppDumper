@@ -425,5 +425,7 @@ void il2cpp_dump(const char *outDir) {
         outStream << outPuts[i];
     }
     outStream.close();
+    LOGI("---outPath----");
+    LOGI(outPath);
     LOGI("dump done!");
 }
